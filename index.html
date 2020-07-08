@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1><i class="fas fa-align-left"></i> Things to do</h1>
+
+        <form action="">
+            <div class="input-group">
+                <input type="text" class="todo-task-input" placeholder="add new task" required>
+                <input type="text" class="todo-task-description" placeholder="add task description (optional)">
+            </div>
+            <button type="submit" class="todo-button"><i class="fas fa-plus-circle"></i> Add new task </button>
+            <button type="submit" class="todo-clear"><i class="fas fa-broom"></i> Clear tasks</button>
+        </form>
+
+        <div class="list-wrapper">
+            <ul class="todo-list-completed">
+                <h2>To be Done</h2>
+            </ul>
+            <ul class="todo-list-uncompleted">
+                <h2>Done</h2>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
